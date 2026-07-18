@@ -1,0 +1,4 @@
+@import url("warm-white-reset.css");
+/* Shared canvas for Home, Research, and Life. */
+:root{--paper:#fff}
+html,body{background:#fff}

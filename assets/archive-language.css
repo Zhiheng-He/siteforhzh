@@ -1,0 +1,7 @@
+@import url("page-background.css");
+@import url("portfolio-rhythm.css");
+@import url("cross-page-refinement.css");
+@import url("home-no-slogan.css");
+@import url("archive-title-spacing.css");
+/* Shared visual language for Home and Life: material, type, and restrained green details. */
+.portrait-slot{position:relative}.portrait-slot figcaption{font-family:"Piazzolla",Georgia,serif;font-style:italic}.news-section{position:relative}.music-section .life-section-head:after{display:none}

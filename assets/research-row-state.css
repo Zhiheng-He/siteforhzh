@@ -1,0 +1,2 @@
+/* Current paper holds the same pale sage as a hovered index row. */
+.paper-row.is-selected,.matched-paper-group .paper-row.is-selected{background:rgba(239,244,237,.78);transform:translateX(3px);box-shadow:0 5px 13px rgba(64,82,69,.08),0 0 18px rgba(152,181,151,.32);outline:0}.paper-row.is-selected:hover,.matched-paper-group .paper-row.is-selected:hover{background:rgba(239,244,237,.78);transform:translateX(3px);box-shadow:0 5px 13px rgba(64,82,69,.08),0 0 18px rgba(152,181,151,.32)}

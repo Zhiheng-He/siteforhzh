@@ -1,0 +1,33 @@
+/* Default text voice. */
+body,body *{font-family:"Vollkorn",Georgia,serif!important}
+
+/* Piazzolla interface and display roles. */
+.site-header nav,.site-header nav *,
+.home-nameplate,.home-nameplate *,
+.bio-link,.bio-link *,
+.news-sidebar h2,.news-sidebar h2 *,.news-sidebar h2::before,.news-sidebar h2::after,
+.research-heading h1,.research-heading h1 *,
+.life-intro h1,.life-intro h1 *,
+.paper-detail h2,.paper-detail h2 *,
+.archive-filter,.archive-filter *,
+.detail-top .eyebrow,
+.detail-actions,.detail-actions *,
+.detail-dates b,.row-dates b{font-family:"Piazzolla",Georgia,serif!important}
+
+/* Research content roles that remain Vollkorn. */
+.paper-row,.paper-row *,
+.detail-citation,.detail-citation *,
+.detail-outcomes,.detail-outcomes *,
+.detail-dates,.detail-dates span,
+.row-dates,.row-dates span{font-family:"Vollkorn",Georgia,serif!important}
+
+/* Date labels override their Vollkorn containers. */
+.detail-dates b,.row-dates b{font-family:"Piazzolla",Georgia,serif!important;text-transform:none!important}
+
+/* Remove the former mono/sans presentation so Piazzolla reads visibly as Piazzolla. */
+.site-header nav{font-size:12px!important;letter-spacing:.01em!important;text-transform:none!important}
+.site-header nav a{font-weight:500!important;letter-spacing:.01em!important;text-transform:none!important}
+.archive-filter .eyebrow,.archive-filter .filter-status{font-size:12px!important;font-weight:500!important;letter-spacing:0!important;text-transform:none!important}
+.archive-filter .archive-pill{font-size:13px!important;letter-spacing:0!important;text-transform:none!important}
+.archive-filter .archive-pill span{font-size:10px!important;letter-spacing:0!important;text-transform:none!important}
+.detail-top .eyebrow{font-size:11px!important;font-weight:500!important;letter-spacing:.02em!important;text-transform:none!important}

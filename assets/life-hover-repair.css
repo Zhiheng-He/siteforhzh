@@ -1,0 +1,8 @@
+@import url("life-album-wall.css");
+/* Keep album imagery continuous while its overlay opens. */
+.photo-project{min-height:430px;overflow:hidden;background:#71897c}
+.photo-project:before,.photo-project:after{inset:-1px}
+.photo-project.has-image{background-image:var(--album-cover);background-position:center;background-repeat:no-repeat;background-size:cover}
+.photo-project.has-image:before{transform:scale(1.015);transition:transform .55s ease}
+.photo-project.has-image:hover:before,.photo-project.has-image:focus-visible:before{transform:scale(1.08)!important}
+.gallery-dialog::backdrop{background:rgba(0,0,0,.72)}
