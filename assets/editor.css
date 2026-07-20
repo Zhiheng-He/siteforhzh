@@ -1,1 +1,30 @@
-:root{--ink:#3c5147;--paper:#fbfaf7;--green:#6e8378;--soft:#eef0e9;--line:#d7ddd4}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 "Piazzolla",Georgia,serif}.editor-shell{width:min(1120px,calc(100% - 56px));margin:auto;padding:55px 0}header{display:grid;grid-template-columns:1fr 360px;gap:60px;align-items:end;margin-bottom:45px}header h1{margin:8px 0 0;font-size:64px;font-weight:500;line-height:.92;letter-spacing:-.06em}header h1 em{color:var(--green);font-weight:400}header>p{margin:0;color:var(--green)}.kicker{margin:0;font:10px "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}.editor-grid{display:grid;grid-template-columns:280px minmax(0,1fr);gap:24px}.editor-grid aside,.editor-grid form{padding:20px;border-radius:18px;background:#fffefb;box-shadow:0 8px 24px rgba(54,74,64,.08)}.aside-head,.form-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.aside-head button,footer button{border:0;border-radius:999px;background:var(--green);color:white;padding:8px 12px;font:11px "DM Mono",monospace;cursor:pointer}.paper-nav{display:block;width:100%;padding:11px 8px;border:0;border-radius:9px;background:transparent;color:var(--ink);text-align:left;font:15px/1.25 "Piazzolla",Georgia,serif;cursor:pointer}.paper-nav span{display:block;margin-bottom:2px;color:var(--green);font:9px "DM Mono",monospace}.paper-nav.is-active{background:var(--soft)}.remove{border:0;background:none;color:#986a5c;font:11px "DM Mono",monospace;cursor:pointer}label{display:block;margin:0 0 15px;font-size:14px}label small{color:var(--green);font-size:11px}input,textarea{display:block;width:100%;margin-top:5px;padding:9px 10px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);font:14px "Piazzolla",Georgia,serif}textarea{resize:vertical}.two{display:grid;grid-template-columns:1fr 1fr;gap:15px}footer{display:flex;justify-content:space-between;align-items:center;margin-top:25px;padding:17px 19px;border-radius:14px;background:var(--soft)}footer p{margin:0;color:var(--green);font-size:13px}@media(max-width:750px){.editor-shell{width:calc(100% - 32px);padding:30px 0}header,.editor-grid{grid-template-columns:1fr;gap:22px}header h1{font-size:48px}.two{grid-template-columns:1fr}footer{display:block}footer button{margin-top:12px}}
+:root{--ink:#3c5147;--paper:#fbfaf7;--green:#6e8378;--soft:#eef0e9;--line:#d7ddd4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 "Piazzolla",Georgia,serif}
+.editor-shell{width:min(1120px,calc(100% - 56px));margin:auto;padding:55px 0}
+header{display:grid;grid-template-columns:1fr 360px;gap:60px;align-items:end;margin-bottom:45px}
+header h1{margin:8px 0 0;font-size:64px;font-weight:500;line-height:.92;letter-spacing:-.06em}
+header h1 em{color:var(--green);font-weight:400}
+header>p{margin:0;color:var(--green)}
+.kicker{margin:0;font:10px "Piazzolla",Georgia,serif;letter-spacing:.08em;text-transform:uppercase}
+.editor-grid{display:grid;grid-template-columns:280px minmax(0,1fr);gap:24px}
+.editor-grid aside,.editor-grid form{padding:20px;border-radius:18px;background:#fffefb;box-shadow:0 8px 24px rgba(54,74,64,.08)}
+.aside-head,.form-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.aside-head button,footer button{border:0;border-radius:999px;background:var(--green);color:white;padding:8px 12px;font:11px "Piazzolla",Georgia,serif;cursor:pointer}
+.editor-nav-item{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;margin:2px 0;border-radius:9px}
+.editor-nav-item.is-active{background:var(--soft)}
+.paper-nav{display:block;width:100%;padding:11px 8px;border:0;border-radius:9px;background:transparent;color:var(--ink);text-align:left;font:15px/1.25 "Piazzolla",Georgia,serif;cursor:pointer}
+.paper-nav span{display:block;margin-bottom:2px;color:var(--green);font:9px "Piazzolla",Georgia,serif}
+.nav-order{display:flex;gap:2px;padding-right:7px}
+.order-control{width:23px;height:23px;padding:0;border:0;border-radius:7px;background:transparent;color:var(--green);font:15px/1 "Piazzolla",Georgia,serif;cursor:pointer}
+.order-control:hover:not(:disabled){background:rgba(110,131,120,.16);color:var(--ink)}
+.order-control:disabled{opacity:.24;cursor:default}
+.remove{border:0;background:none;color:#986a5c;font:11px "Piazzolla",Georgia,serif;cursor:pointer}
+label{display:block;margin:0 0 15px;font-size:14px}
+label small{color:var(--green);font-size:11px}
+input,textarea{display:block;width:100%;margin-top:5px;padding:9px 10px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);font:14px "Piazzolla",Georgia,serif}
+textarea{resize:vertical}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+footer{display:flex;justify-content:space-between;align-items:center;margin-top:25px;padding:17px 19px;border-radius:14px;background:var(--soft)}
+footer p{margin:0;color:var(--green);font-size:13px}
+@media(max-width:750px){.editor-shell{width:calc(100% - 32px);padding:30px 0}header,.editor-grid{grid-template-columns:1fr;gap:22px}header h1{font-size:48px}.two{grid-template-columns:1fr}footer{display:block}footer button{margin-top:12px}}

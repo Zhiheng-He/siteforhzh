@@ -1,5 +1,5 @@
 /* Default text voice. */
-body,body *{font-family:"Vollkorn",Georgia,serif!important}
+body,body *,body::before,body::after,body *::before,body *::after{font-family:"Piazzolla",Georgia,serif!important}
 
 /* Piazzolla interface and display roles. */
 .site-header nav,.site-header nav *,
@@ -14,14 +14,14 @@ body,body *{font-family:"Vollkorn",Georgia,serif!important}
 .detail-actions,.detail-actions *,
 .detail-dates b,.row-dates b{font-family:"Piazzolla",Georgia,serif!important}
 
-/* Research content roles that remain Vollkorn. */
+/* Research content follows the same Piazzolla voice. */
 .paper-row,.paper-row *,
 .detail-citation,.detail-citation *,
 .detail-outcomes,.detail-outcomes *,
 .detail-dates,.detail-dates span,
-.row-dates,.row-dates span{font-family:"Vollkorn",Georgia,serif!important}
+.row-dates,.row-dates span{font-family:"Piazzolla",Georgia,serif!important}
 
-/* Date labels override their Vollkorn containers. */
+/* Date labels stay in the same typeface. */
 .detail-dates b,.row-dates b{font-family:"Piazzolla",Georgia,serif!important;text-transform:none!important}
 
 /* Remove the former mono/sans presentation so Piazzolla reads visibly as Piazzolla. */
